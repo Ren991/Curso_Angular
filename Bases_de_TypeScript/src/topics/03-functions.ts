@@ -10,6 +10,7 @@ const addNumbersArrow = (a: number, b:number): string => {
 }
 
 function multiply( firstNumber : number, secondNumber?: number, base:number = 2){ // En este caso base tiene por defecto el num 2 en caso que no se envien parámetros. 
+    console.log(secondNumber)
     return firstNumber * base;
 }
 

@@ -2,6 +2,7 @@
 //let skills = ["bash","Counter","Healing",true,123]; //ARREGLO QUE ACEPTA STR - NUMBER o BOOLEAN.
 
 const skills: string[] = ["bash","Counter","Healing"]; //ARREGLO QUE solo acepta str. Es una constante.
+console.log(skills)
 
  //Interface No tiene representacion fisica en js. Sirven para tipar los objetos literales.
 
