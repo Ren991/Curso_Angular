@@ -23,9 +23,14 @@ const audioPlayer: AudioPlayer = {
 
 const {song:anotherSong , songDuration:duration, details} = audioPlayer; // Desestructurar
 
-const {author} = details;
+/*const {author} = details;
 console.log("Song:", anotherSong);
 console.log("Duration", duration);
-console.log("Author",author);
+console.log("Author",author);*/
+
+const [ , , trunks = "Not found"]: string[] = ["Goku","Vegetta"];
+
+console.log("Personaje 3:" , trunks);
+
 
 export {};
