@@ -1,4 +1,7 @@
 <h1>{{title}}</h1> <!-- INSTANCIO EL TITULO DE APP.COMPONENT.TS -->
 <hr>
 <p>Bienvenidos a Angular</p>
-<h4>{{counter}}</h4>
+<h4>Counter: {{counter}}</h4>
+<button (click)="increaseBy(+1)" >+1</button>
+<button (click)="reset()">Reset</button>
+<button (click)="increaseBy(-1)">-1</button>
