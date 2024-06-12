@@ -19,4 +19,7 @@ import { CardListComponent } from './components/card-list/card-list.component';
     HomePageComponent
   ]
 })
-export class GifsModule { }
+export class GifsModule { 
+
+  
+}
